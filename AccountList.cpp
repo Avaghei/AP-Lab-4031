@@ -114,6 +114,7 @@ void AccountList::print()
         current = current->next;
     }
 }
+
 Account *merge(Account *first, Account *second) {
     if (first == nullptr) return second;
     if (second == nullptr) return first;

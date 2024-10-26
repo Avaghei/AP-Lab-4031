@@ -15,17 +15,13 @@ public:
 
 	/* sort by account uniqe id */
 	void sort();
-
-	Account* MergeSort(Account* head);
+	Account* merge(Account* first, Account* second);
 
 	/* search by the account uniqe id*/
 	Account search(int _uniqeId);
 
 	/*search by accout username*/
 	void search(std::string _username);
-
-
-
 	
 	void swap(Account& acc1, Account& acc2);
 	void print();
